@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Desktop */
+@media screen and (min-width: 992px) {
+  header {
+    background-color: #333;
+    padding: 1rem;
+  }
+
+  header h1 {
+    color: white;
+    margin: 0;
+  }
+
+  #color-box {
+    background-color: white;
+    margin: 2rem 2rem 1rem 2rem;
+    height: 40vh;
+    border: dotted #333 1px;
+    border-radius: 5px;
+  }
+
+  #color-code {
+    margin-top: 15%;
+    color: #000;
+  }
+
+  button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    margin: 0.5rem;
+  }
+
+  #custom-color {
+    padding: 0.5rem;
+  }
+
+  input[type='text'] {
+    padding: 0.5rem;
+  }
+
+  footer {
+    margin-top: 3rem;
+  }
+}
+
+/* Mobile */
+@media screen and (maz-width: 992px) {
+}
